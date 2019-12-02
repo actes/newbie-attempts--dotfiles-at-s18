@@ -42,3 +42,8 @@ zsh
 ls bash
 ls *bash*
 ls .*bash*
+pwd
+zsh
+set|grep marti
+set|grep lf
+set|grep marti
