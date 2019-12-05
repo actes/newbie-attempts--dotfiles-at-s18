@@ -46,3 +46,28 @@ make ARCH=${CLFS_ARCH} INSTALL_HDR_PATH=${CLFS}/cross-tools/${CLFS_TARGET} heade
 history -a
 chmod a+r ~/.bash*
 history -a
+cd ..
+rm -rf linux-4.9.22
+tar xvf binutils-2.27.tar.bz2 
+cd binutils-2.27
+mkdir -v ../binutils-build
+cd ../binutils-build
+../binutils-2.27/configure    --prefix=${CLFS}/cross-tools    --target=${CLFS_TARGET}    --with-sysroot=${CLFS}/cross-tools/${CLFS_TARGET}    --disable-nls    --disable-multilib
+make configure-host
+make
+make install
+cd ..
+rm -rf binutils-build/
+rm -rf binutils-2.27
+tar xvf gcc-6.2.0.tar.bz2 
+cd gcc-6.2.0
+tar xf ../mpfr-3.1.4.tar.bz2
+mv -v mpfr-3.1.4 mpfr
+tar xf ../gmp-6.1.1.tar.bz2
+mv -v gmp-6.1.1 gmp
+tar xf ../mpc-1.0.3.tar.gz
+mv -v mpc-1.0.3 mpc
+mkdir -v ../gcc-build
+cd ../gcc-build
+echo ../gcc-6.2.0/configure   --prefix=${CLFS}/cross-tools   --build=${CLFS_HOST}   --host=${CLFS_HOST}   --target=${CLFS_TARGET}   --with-sysroot=${CLFS}/cross-tools/${CLFS_TARGET}   --disable-nls    --disable-shared   --without-headers   --with-newlib   --disable-decimal-float   --disable-libgomp   --disable-libmudflap   --disable-libssp   --disable-libatomic   --disable-libquadmath   --disable-threads   --enable-languages=c   --disable-multilib   --with-mpfr-include=$(pwd)/../gcc-6.2.0/mpfr/src   --with-mpfr-lib=$(pwd)/mpfr/src/.libs   --with-arch=${CLFS_CPU}
+history -a
