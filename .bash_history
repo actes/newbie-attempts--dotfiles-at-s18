@@ -47,3 +47,9 @@ zsh
 set|grep marti
 set|grep lf
 set|grep marti
+zsh
+git clone https://github.com/ivandavidov/minimal.git
+mc
+git status 
+mc
+history -a

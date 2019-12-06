@@ -71,3 +71,14 @@ mkdir -v ../gcc-build
 cd ../gcc-build
 echo ../gcc-6.2.0/configure   --prefix=${CLFS}/cross-tools   --build=${CLFS_HOST}   --host=${CLFS_HOST}   --target=${CLFS_TARGET}   --with-sysroot=${CLFS}/cross-tools/${CLFS_TARGET}   --disable-nls    --disable-shared   --without-headers   --with-newlib   --disable-decimal-float   --disable-libgomp   --disable-libmudflap   --disable-libssp   --disable-libatomic   --disable-libquadmath   --disable-threads   --enable-languages=c   --disable-multilib   --with-mpfr-include=$(pwd)/../gcc-6.2.0/mpfr/src   --with-mpfr-lib=$(pwd)/mpfr/src/.libs   --with-arch=${CLFS_CPU}
 history -a
+../gcc-6.2.0/configure   --prefix=${CLFS}/cross-tools   --build=${CLFS_HOST}   --host=${CLFS_HOST}   --target=${CLFS_TARGET}   --with-sysroot=${CLFS}/cross-tools/${CLFS_TARGET}   --disable-nls    --disable-shared   --without-headers   --with-newlib   --disable-decimal-float   --disable-libgomp   --disable-libmudflap   --disable-libssp   --disable-libatomic   --disable-libquadmath   --disable-threads   --enable-languages=c   --disable-multilib   --with-mpfr-include=$(pwd)/../gcc-6.2.0/mpfr/src   --with-mpfr-lib=$(pwd)/mpfr/src/.libs   --with-arch=${CLFS_CPU}
+make all-gcc all-target-libgcc
+gcc --version
+history -a
+history 
+cd ..
+rm -rf gcc-6.2.0
+rm -rf gcc-build/
+ls -la
+history -a
+history -a
