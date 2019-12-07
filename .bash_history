@@ -53,3 +53,11 @@ mc
 git status 
 mc
 history -a
+zsh
+git clone https://github.com/ivandavidov/minimal-linux-script.git
+mc
+zsh
+history -a
+zsh
+history -a
+zsh
