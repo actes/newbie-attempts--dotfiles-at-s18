@@ -61,3 +61,10 @@ history -a
 zsh
 history -a
 zsh
+pkill qemu
+fish
+env
+env
+zsh
+lsb_release 
+lsb_release -a
