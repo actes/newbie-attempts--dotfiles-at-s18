@@ -68,3 +68,8 @@ env
 zsh
 lsb_release 
 lsb_release -a
+zsh
+sudo snap login
+history -a
+snap install node --classic --channel=10
+history -a
