@@ -74,3 +74,5 @@ history -a
 snap install node --classic --channel=10
 history -a
 zsh
+cd
+mkdir bin
