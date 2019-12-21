@@ -80,3 +80,4 @@ env
 cd
 mc
 zsh
+node
