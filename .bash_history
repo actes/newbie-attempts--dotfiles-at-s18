@@ -76,3 +76,7 @@ history -a
 zsh
 cd
 mkdir bin
+env
+cd
+mc
+zsh

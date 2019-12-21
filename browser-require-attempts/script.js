@@ -14,3 +14,8 @@ document.getElementById('slugy-text').innerHTML = `slugy("${textToSlug}") <br/>�
 const textToHash = 'Hash Me!';
 document.getElementById('hash-text').innerHTML = `hash("${textToHash}") <br/>➡️ ${hash(textToSlug)}`;
 */
+
+//const JSON5 = require('json5')
+console.log(  JSON5.parse('{a:1,     b:7}')  )
+console.log(  JSON5 )
+
