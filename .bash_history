@@ -81,3 +81,8 @@ cd
 mc
 zsh
 node
+zsh
+pstree --help
+file *
+mc
+zsh
