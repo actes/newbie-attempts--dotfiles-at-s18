@@ -86,3 +86,18 @@ pstree --help
 file *
 mc
 zsh
+man ash
+man busybox
+busybox 
+busybox hush
+busybox sh
+ll
+busybox sh
+zsh
+sudo apt install fish
+fish
+zsh
+mc
+zsh
+sudo sfdisk --list
+zsh
