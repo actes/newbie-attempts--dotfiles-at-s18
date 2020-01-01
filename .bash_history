@@ -101,3 +101,14 @@ mc
 zsh
 sudo sfdisk --list
 zsh
+fish
+zsh
+cat /etc/sudoers
+sudo cat /etc/sudoers
+sudo ls -la /etc/sudoers.d/
+sudo cat /etc/sudoers.d/README 
+echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL"
+echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
+history 
+ls -la /etc/sudoers.d/
+sudo cat /etc/sudoers.d/martin 
