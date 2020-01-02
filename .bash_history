@@ -112,3 +112,7 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 history 
 ls -la /etc/sudoers.d/
 sudo cat /etc/sudoers.d/martin 
+history 
+sudo cat /etc/sudoers
+zsh
+ll
