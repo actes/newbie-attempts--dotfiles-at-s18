@@ -116,3 +116,15 @@ history
 sudo cat /etc/sudoers
 zsh
 ll
+zsh
+./busybox
+df
+df -a
+zsh
+df
+df -m
+file *
+zsh
+socat
+ls -l vc*
+zsh
