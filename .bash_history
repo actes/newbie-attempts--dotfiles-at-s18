@@ -113,3 +113,5 @@ history
 ls -la /etc/sudoers.d/
 sudo cat /etc/sudoers.d/martin 
 zsh
+find . -type l
+sudo mkdir mart-jinagit
