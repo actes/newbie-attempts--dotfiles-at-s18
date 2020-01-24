@@ -115,3 +115,5 @@ sudo cat /etc/sudoers.d/martin
 zsh
 find . -type l
 sudo mkdir mart-jinagit
+history |less
+zsh
