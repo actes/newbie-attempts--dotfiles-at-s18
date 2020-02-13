@@ -128,3 +128,75 @@ zsh
 socat
 ls -l vc*
 zsh
+arp
+ifconfig 
+ping 127.0.0.1
+ping 10.0.2.15
+ping 10.0.2.3
+history 
+history -a
+history 
+zsh
+9mount
+lsmod 
+zsh
+file *
+O
+file *
+zsh
+ls
+cd
+ls
+ls ba*
+mc
+zsh
+git clone --depth=1 https://github.com/martin12333/bash-it.git ~/.bash_it
+.bash_it/install.sh 
+mc
+ls
+bash-it show plugins 
+bash-it show plugins |less
+zsh
+set|grep -i hist
+zsh
+set|grep -i hist
+mc
+zsh
+history 
+bashit 
+bashit enable plugin history ory
+dfgdgfd
+fdgfdfdgfd
+bashit 
+bashit show plugins 
+zsh
+shopt
+echo $SHELLOPTS 
+zsh
+echo $SHELLOPTS 
+help
+help  bind 
+bind -l
+bind -S
+bind -P
+history 
+mc
+cp /etc/inputrc ~/.inputrc
+mc
+ls
+history 
+bind -P
+bind -S
+bind -l
+history 
+cat README.md
+history 
+cp -iv /etc/inputrc ~/.inputrc
+history -a
+hhistory -a
+b
+cp -iv .inputrc.5 .inputrc
+history 
+history |less
+mc
+cat .histfile 
