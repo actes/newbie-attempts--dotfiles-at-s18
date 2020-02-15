@@ -200,3 +200,5 @@ history
 history |less
 mc
 cat .histfile 
+zsh
+mc
